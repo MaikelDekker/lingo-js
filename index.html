@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+	<title>Lingo</title>
+</head>
+<body>
+	
+</body>
+	<div id="lingo">
+	<p><button id="start" onclick="getWord();">Start</button>
+	<p id="answer"></p>
+
+	<input maxlength="5" id="inputField" type="text" name="attempt">
+	<br>
+	<button id="check" onclick="checkAnswer();">check</button>
+
+	<p id="wordShow"></p>
+
+	<div id="grid">
+		<span id="first"></span>
+		<span id="second"></span>
+		<span id="third"></span>
+		<span id="fourth"></span>
+		<span id="fifth"></span>
+	</div>
+	<p id="alertText"></p>
+	</div>
+
+	<script src="js/words-nl.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/lingo.js" type="text/javascript" type="text/javascript"></script>
+</html>
